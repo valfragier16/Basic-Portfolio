@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Assests/CSS/style.css">
+    
+    <style>
+        body {
+            background-color: #dddddd;
+        }
+        
+        h2 {
+            color: #4aaaa5;
+            font-size: 44px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 0px 0px 0px 0;
+            border-bottom: 2px solid #dddddd;
+        }   
+
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+
+        }
+
+        input[type=message], select {
+            width: 100%;
+            padding: 42px 50px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4aaaa5;
+            color: #ffffff;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #4aaa;
+
+        }
+
+        .form {
+            border-radius: 5px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-bottom: 20px solid #dddddd;
+            border-top: 20px solid #dddddd;
+            overflow: auto;
+            width:960px;
+            margin: 0 auto 0 auto;
+    
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+            <a class ="active" href="#home"><strong>Valerie Fragier</strong></a>
+        <div class="topnav-right">
+            <a href="index.html">About</a>
+            <a>|</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a>|</a>
+            <a href="contact.html">Contact</a>
+        </div>
+            
+    </div>
+    
+    <div class="form">
+        <h2>Contact</h2>
+        
+        <form action>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Your Email..">
+
+            <label for="message">Message</label>
+            <input type="message" id="message">
+
+            <input type="submit" value="Submit">
+        </form>
+        
+
+    </div>
+            
+    <footer>
+        @copyright
+    </footer>
+</body>
+
+
+</html>
