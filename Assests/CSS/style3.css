@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 20px;
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+      
+/*Top nagivation bar section*/ 
+
+ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  }
+
+  li a:hover {
+      color: #4aaaa5;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ffffff;
+  }
+  
+  .active {
+    background-color: #4aaaa5;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 175px;
+    font-size: 40px;
+  }
+  
+  .topnav-right {
+    float: right;
+    margin-right: 175px;
+  }
+
+/*Form section*/
+
+.form {
+    width: 960px;
+    margin: 0 auto;
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 0px 0px 0;
+    border-bottom: 2px solid #dddddd;
+}   
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=message], select {
+    width: 100%;
+    padding: 42px 50px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaa;
+
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    overflow: auto;
+    width:960px;
+    margin: 0 auto 0 auto;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: xx-small;
+    padding:20px;
+    clear: both;
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    color: #ffffff;
+    
+}
